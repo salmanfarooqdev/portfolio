@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import VantaBackground from "./VantaBackground";
+// import VantaBackground from "./VantaBackground";
 
 
 export default function HomeSection()
