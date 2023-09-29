@@ -12,6 +12,7 @@ function App() {
         <div>
           <Nav />
           <Routes>
+            
             <Route path='/' element={<Home />} />
             <Route path='*' element={<div className='error'><h1>404 Error</h1></div>} />
           </Routes>
