@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://salmanfarooqdev.github.io/",
+  "homepage": "http://salman-farooq.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
