@@ -20,7 +20,7 @@
         {
             "id": "4",
             "text":"React",
-            "src": "./public/react2.svg"
+            "src": "./react2.svg"
         },
         {
             "id": "5",
@@ -63,12 +63,12 @@
         {
             "id":"4",
             "text":"Mongoose",
-            "src":"./public/mongoose.svg"
+            "src":"./mongoose.svg"
         },
         {
             "id":"5",
             "text":"firebase",
-            "src":"./public/firebase.svg"
+            "src":"./firebase.svg"
         }
        
     ],
@@ -77,17 +77,17 @@
         {
             "id": "1",
             "text":"Git",
-            "src":"./public/git.svg"
+            "src":"./git.svg"
         },
         {
             "id": "2",
             "text":"Github",
-            "src":"./public/github.svg"
+            "src":"./github.svg"
         },
         {
             "id": "3",
             "text":"npm",
-            "src":"./public/npm.svg"
+            "src":"./npm.svg"
         }
       
        
