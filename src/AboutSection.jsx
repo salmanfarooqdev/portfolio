@@ -13,8 +13,8 @@ export default function AboutSection()
 
                 <p className="about-desc">You can also find me in:</p>
                 <div className="links">
-                <i className="fa fa-github" style={{fontSize: '58px'}}></i>
-                <i className="fa fa-linkedin-square" style={{fontSize: '58px'}}></i>
+                <i className="fa fa-github" ></i>
+                <i className="fa fa-linkedin-square" ></i>
 
                 </div>
             </div>

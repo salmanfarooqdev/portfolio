@@ -71,7 +71,7 @@ ul > li:hover {
 /* home section */
 
 .home-section {
-  padding: 80px 100px 0px 100px;
+  padding: 80px 100px 80px 100px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -127,7 +127,6 @@ ul > li:hover {
 }
 .App {
   height: 100vh;
-  background-color: #c79e9e;
 }
 
  /* about section */
@@ -286,22 +285,196 @@ ul > li:hover {
 
   /* project section */
   .project-section{
-    background-color: #c79e9e;
-    height: 100vh;
+    background-color: rgb(5, 7, 11);
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
+    color:aliceblue;
+    flex-direction: column;
+    padding: 20px;
 
+  }
+
+  .project-title{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(204, 223, 238);
+    margin-bottom: 15px;
+  }
+
+  .fa-circle{
+    font-size: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+  .project-div{
+    border: 2px solid rgb(75, 95, 222);
+    margin: 2% 5% 2% 5%;
+    display: flex;
+    max-width: 1100px;
+    padding: 45px 25px 45px 25px;
+    gap:50px;
+    border-radius: 7px;
+    /* flex-wrap: wrap;  */
+   
+    
+  }
+  .project-image{
+    min-width: 600px;
+   max-width: 100%;
+    height: 100%;
+    /* border: 2px solid white; */
+    object-fit: cover;
+    flex:1;
+  }
+  .project-header{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+   
+  }
+  .project-info{
+    flex:2;
+    /* max-width: 100%;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .project-about{
+    margin-bottom: 20px;
+  }
+  .project-btns{
+    margin-top: 30px;
+    display: flex;
+    gap:20px;
+  }
+  .subtitle{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .project-btn{
+    font-size: 19px;
+    padding: 11px;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    border: 2px solid rgb(75, 95, 222);
+    cursor: pointer;
+    max-width:max-content;
+    color:rgb(75, 95, 222);
+    transition: 0.3s;
+    border-radius: 5px;
+    
+  }
+  .project-btn:hover{
+    color: aliceblue;
+    background-color: #4b54cc;
+  }
+  .projectimg{
+    max-width: 100%;
+    max-height: 100%;
+    
   }
 
   /* contact section */
 
   .contact-section{
-    background-color: #6b4141;
+    background-color: rgb(5, 7, 11);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
   }
 
-@media (max-width: 800px) {
+  .contact-title{
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(204, 223, 238);
+    margin-bottom: 15px;
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  table {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+   
+  }
+  tr {
+    margin-bottom: 15px;
+  }
+  
+  td {
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: vertical;
+  background-color: #3e3f48;
+  font-size: 20px;
+  border: none;
+  color: aliceblue;
+  height: 50px;
+}
+textarea{
+  height: auto;
+}
+
+input[type="submit"] {
+  background-color: rgb(75, 95, 222);
+  color: aliceblue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact-subtitle{
+  color: aliceblue;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #4b54cc;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  background-color: rgb(5, 7, 11);
+
+
+}
+.copyright{
+  color: #4e4f53;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
   .nav-ham {
     flex-direction: column;
     height: 1.313rem;
@@ -337,10 +510,11 @@ ul > li:hover {
   }
 
   .home-section {
-    padding: 10px 5px;
+    padding: 40px 20px;
+    
   }
   .home-first-name {
-    font-size: 50px; /* Adjust font size */
+    font-size: 40px; /* Adjust font size */
   }
 
   .name, .title {
@@ -356,4 +530,79 @@ ul > li:hover {
     font-size: 30px; /* Adjust font size */
     line-height: 1rem; /* Adjust line height */
   }
+  .name {
+    margin-left: 0; /* Remove margin for smaller screens */
+  }
+
+  .about-title{
+    font-size: 35px;
+   }
+   .about-desc, .about-email{
+    font-size: 17px;
+   }
+   .fa-github, .fa-linkedin-square{
+    font-size: 48px;
+   }
+  .skill-title{
+    font-size: 35px;
+    margin-bottom: 30px;
+
+  }
+  .skill-section-div{
+    margin: 15%;
+  }
+  .frontend-skills, .backend-skills, .miscellaneous{
+    font-size: 23px;
+  }
+  .skillimg{
+    width: 50px;
+  }
+  .project-title, .contact-title{
+    font-size: 35px;
+  }
+ .subtitle, .contact-subtitle{
+  font-size: 16px;
+  margin: 5%;
+  text-align: center;
+ }
+ .project-btn{
+  font-size: 17px;
+  padding: 9px;
+ }
+ input[type="text"], input[type="email"], textarea {
+  
+  padding: 8px;
+  font-size: 17px;
+}
+
+.copyright{
+  font-size: 12px;
+}
+
+
+ 
+}
+
+@media (max-width:940px)
+{
+  .project-div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .project-image{
+    min-width: 100%;
+   
+  }
+  .projectimg{
+    /* max-width: 100%;
+    max-height: 100%; */
+
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Allow the height to adjust automatically based on aspect ratio */
+    object-fit: cover; 
+    
+  }
+
 }

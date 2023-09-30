@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-// import VantaBackground from "./VantaBackground";
+import VantaBackground from "./VantaBackground";
 
 
 export default function HomeSection()
@@ -18,7 +18,7 @@ export default function HomeSection()
     return (
         
         <div className="home-section" id="home-section">
-           {/* <VantaBackground /> */}
+           <VantaBackground />
 
             <div className="name" style={{ marginLeft: nameMargin }}>
                   <div className="home-first-name">Salman Farooq</div>

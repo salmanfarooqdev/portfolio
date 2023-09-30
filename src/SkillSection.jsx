@@ -15,9 +15,9 @@ export default function SkillSection()
                         data?.fskills?.map((item, index)=>{
                             return(
                                 <div className="skill-div" key={index}>
-                                <div class="image-container">
+                                <div className="image-container">
                                 <img className="skillimg" alt="svgImg" src={item.src}/>
-                                <div class="image-text">{item.text}</div>
+                                <div className="image-text">{item.text}</div>
                                 </div>
                                 </div>
                             )
@@ -33,9 +33,9 @@ export default function SkillSection()
                                 data?.bskills?.map((item, index)=>{
                                     return(
                                         <div className="skill-div" key={index}>
-                                        <div class="image-container">
+                                        <div className="image-container">
                                         <img className="skillimg" alt="svgImg" src={item.src}/>
-                                        <div class="image-text">{item.text}</div>
+                                        <div className="image-text">{item.text}</div>
                                         </div>
                                         </div>
                                     )
@@ -51,9 +51,9 @@ export default function SkillSection()
                                     data?.mskills?.map((item, index)=>{
                                         return(
                                             <div className="skill-div" key={index}>
-                                            <div class="image-container">
+                                            <div className="image-container">
                                             <img className="skillimg" alt="svgImg" src={item.src}/>
-                                            <div class="image-text">{item.text}</div>
+                                            <div className="image-text">{item.text}</div>
                                             </div>
                                             </div>
                                         )

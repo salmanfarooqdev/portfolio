@@ -4,6 +4,7 @@ import AboutSection from "./AboutSection";
 import SkillSection from "./SkillSection";
 import ProjectSection from "./ProjectSection";
 import ContactSection from "./ContactSection";
+import Footer from "./Footer";
 
 
 export default function Home()
@@ -17,6 +18,7 @@ export default function Home()
         <SkillSection />
         <ProjectSection />
         <ContactSection />
+        <Footer />
         </>
     )
 }
