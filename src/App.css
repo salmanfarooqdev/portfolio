@@ -90,6 +90,16 @@ ul > li:hover {
   font-weight: 500;
 }
 
+.btn{
+  padding: 15px;
+  background-color: #2e3379;
+  border: none;
+  color: aliceblue;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 .error {
   display: flex;
   justify-content: center;
@@ -100,6 +110,9 @@ ul > li:hover {
 .name {
   margin-left: 80%;
   white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  gap:23px;
 }
 
 .name,
@@ -176,6 +189,10 @@ ul > li:hover {
  }
  .fa:hover{
   color: #6b71d0;
+ }
+
+ .aboutgithub, .aboutlinkedin{
+  font-size: 50px;
  }
 
   /* skill section */
@@ -514,7 +531,7 @@ input[type="submit"]:hover {
     
   }
   .home-first-name {
-    font-size: 40px; /* Adjust font size */
+    font-size: 60px; /* Adjust font size */
   }
 
   .name, .title {
@@ -524,14 +541,22 @@ input[type="submit"]:hover {
   .home-title {
     font-size: 30px; /* Adjust font size */
     line-height: 2rem; /* Adjust line height */
+    margin-top: 20px;
+
   }
 
   .home-title-2 {
     font-size: 30px; /* Adjust font size */
     line-height: 1rem; /* Adjust line height */
+    margin-top: 10px;
   }
   .name {
     margin-left: 0; /* Remove margin for smaller screens */
+    flex-direction: column;
+    gap:0px;
+  }
+  .last{
+    margin-bottom: 10px;
   }
 
   .about-title{

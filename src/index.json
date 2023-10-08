@@ -97,24 +97,32 @@
         {
             "id":"1",
             "title":"CV-Maker",
+            "livelink":"https://salmanfarooqdev.github.io/cv-maker/",
+            "sourcelink":"https://github.com/salmanfarooqdev/cv-maker",
             "src":"./cv-maker.png",
             "about":"Created this CV Maker using React, allowing users to effortlessly craft personalized resumes. With the ability to add custom sections and tailor content, you can easily create a downloadable resume that perfectly suits your needs."
         },
         {
             "id":"2",
             "title":"Etch A Sketch",
+            "livelink":"https://salmanfarooqdev.github.io/javascript-projects/etchASketch/",
+            "sourcelink":"https://github.com/salmanfarooqdev/javascript-projects/tree/main/etchASketch",
             "src":"./etchasketch.png",
             "about":"Developed an Etch A Sketch using JavaScript that replicates the nostalgic drawing toy. Users can use the mouse to create intricate drawings on a virtual canvas. It's a fun and interactive way to unleash your creativity and recreate the classic Etch A Sketch experience in a digital format."
         },
         {
             "id":"3",
             "title":"To Do List",
+            "livelink":"https://salmanfarooqdev.github.io/todolist/",
+            "sourcelink":"https://github.com/salmanfarooqdev/todolist",
             "src":"./todolist.png",
             "about":"Crafted a simple yet effective To-Do List application using JavaScript. It allows users to create, manage, and organize their tasks effortlessly. You can add, edit, and remove tasks, and the list dynamically updates in real-time. Stay organized and boost your productivity with this intuitive To-Do List application."
         },
         {
             "id":"4",
             "title":"Weather App",
+            "livelink":"https://salmanfarooqdev.github.io/weatherApp/",
+            "sourcelink":"https://github.com/salmanfarooqdev/weatherApp",
             "src":"./weather.png",
             "about":"A Weather App using data from the OpenAI API, providing users with accurate and up-to-date weather information. You can easily check the current weather, forecasts, and other essential details for any location worldwide."
         }

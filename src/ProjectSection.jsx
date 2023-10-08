@@ -29,8 +29,22 @@ export default function ProjectSection()
                             </div>
         
                             <div className="project-btns">
-                                <button className="project-btn">Visit live</button>
-                                <button className="project-btn">View source code</button>
+                            {project.livelink && (
+                                <button
+                                    className="project-btn"
+                                    onClick={() => window.open(`${project.livelink}`, '_blank')}
+                                >
+                                    Visit live
+                                </button>
+                                )}
+                                {project.sourcelink && (
+                                <button
+                                    className="project-btn"
+                                    onClick={() => window.open(`${project.sourcelink}`, '_blank')}
+                                >
+                                    View source code
+                                </button>
+                                )}
                             </div>
                         </div>
                     </div>

@@ -13,8 +13,12 @@ export default function AboutSection()
 
                 <p className="about-desc">You can also find me in:</p>
                 <div className="links">
-                <i className="fa fa-github" ></i>
-                <i className="fa fa-linkedin-square" ></i>
+                <a href="https://github.com/salmanfarooqdev" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-github aboutgithub"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/salman-farooq-708a93224" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-linkedin-square aboutlinkedin"></i>
+                </a>
 
                 </div>
             </div>

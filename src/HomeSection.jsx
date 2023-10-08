@@ -21,7 +21,8 @@ export default function HomeSection()
            <VantaBackground />
 
             <div className="name" style={{ marginLeft: nameMargin }}>
-                  <div className="home-first-name">Salman Farooq</div>
+            <div className="home-first-name">Salman</div>
+             <div className="home-first-name last">Farooq</div>
             </div>
             
             <div className="title" style={{ marginLeft: titleMargin }}>
